@@ -6,7 +6,7 @@ import { CurrentUser } from "./current-user.decorator";
 import { User } from "./user.entity";
 
 @Controller('auth')
-@SerializeOptions({strategy: 'excludeAll'})
+@SerializeOptions({ strategy: 'excludeAll' })
 export class AuthController {
   constructor(
     private readonly authService: AuthService
