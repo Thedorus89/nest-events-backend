@@ -2,7 +2,7 @@ import { InjectRepository } from "@nestjs/typeorm";
 import { Attendee } from "./attendee.entity";
 import { Repository } from "typeorm";
 import { Injectable } from "@nestjs/common";
-import { CreateAttendeeDto } from "./create-attendee.dto";
+import { CreateAttendeeDto } from "./input/create-attendee.dto";
 
 @Injectable()
 export class AttendeesService{
